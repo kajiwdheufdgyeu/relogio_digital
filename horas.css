@@ -1,0 +1,23 @@
+html,body{
+   margin:0;
+   padding: auto;
+   background-color:#aaa;
+}
+.conteiner{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  line-height:200px;
+}  
+.relogio{
+   width:350px;
+   height:200px;
+   border:10px solid yellow ;
+   border-radius:10px;
+   background-color:#101010;
+   color:#00da00;
+   font-size:130px;
+   font-family: 'Qahiri', sans-serif;
+}
