@@ -13,16 +13,17 @@
 <body>
   <div class="conteiner">
     <div class="relogio" id="horas">
-      <p>teste</p>
       <footer class="fot"> by kakau </footer>
     </div>
   </div>
   <script> 
+    {
     function restart(){
     var hora = Date ();
-    document.getElementById("horas").innerHTML = hora.slice(15,24);
+    document.getElementById("horas").Value = hora.slice(15,24);
     }
     setInterval(restart,1000)
+    }
   </script>
   </body>
   </html>
